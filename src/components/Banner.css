@@ -1,0 +1,45 @@
+.carousel-root {
+    position: relative;
+  }
+  
+  .carousel-slider {
+    position: relative;
+  }
+  
+  .control-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+    font-size: 18px;
+  }
+  
+  .control-prev {
+    left: 10px;
+  }
+  
+  .control-next {
+    right: 10px;
+  }
+  
+  .slider-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.35s ease-in-out;
+  }
+  
+  .slide {
+    min-width: 100%;
+    box-sizing: border-box;
+  }
+  
